@@ -1,4 +1,4 @@
-# hsdp-metrics-teams-webhook
+# hsdp-events
 
 Microservice helper to translate HSDP Metrics webhooks to Microsoft Teams webhooks
 
