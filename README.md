@@ -12,10 +12,10 @@ Microservice helper to translate HSDP Metrics webhooks to Microsoft Teams webhoo
 ## Deployment
 
 ```shell
-cf create-app hsdp-events
+cf push hsdp-events -o loafoe/hsdp-events:latest
 cf set-env hsdp-events EVENTS_TOKEN secret
 cf set-env hsdp-events EVENTS_WEBHOOK_URL https://company.webhook.office.com/webhookb2/...
-cf push hsdp-events -o loafoe/hsdp-events:latest
+cf restart hsdp-events
 ```
 
 ## License
