@@ -3,7 +3,7 @@ module github.com/philips-labs/hsdp-events
 go 1.17
 
 require (
-	github.com/atc0005/go-teams-notify/v2 v2.6.0
+	github.com/atc0005/go-teams-notify/v2 v2.6.1
 	github.com/labstack/echo/v4 v4.9.0
 	github.com/philips-software/go-hsdp-api v0.46.3-0.20211022082647-85337697d249
 	github.com/spf13/viper v1.9.0
