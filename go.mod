@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/atc0005/go-teams-notify/v2 v2.7.0
 	github.com/labstack/echo/v4 v4.11.4
-	github.com/philips-software/go-hsdp-api v0.46.3-0.20211022082647-85337697d249
+	github.com/philips-software/go-hsdp-api v0.85.0
 	github.com/spf13/viper v1.14.0
 )
 
@@ -26,9 +26,9 @@ require (
 	github.com/subosito/gotenv v1.4.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
+	golang.org/x/net v0.20.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
